@@ -10,13 +10,14 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
-          {/*Robot Font */}
+          {/*Roboto Font */}
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
           {/*material font icons */}
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-
+          {/* favicon */}
+          <link rel="icon" href="/assets/icons/favicon-32x32.png" />
         </Head>
-        <body>
+        <body style={{backgroundColor: `${theme.palette.background.paper}`}}>
           <Main />
           <NextScript />
         </body>

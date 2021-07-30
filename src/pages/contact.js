@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Contact.module.css'
+
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     <main className={styles.contact}>
+     <main className={''}>
 
        This is the contact pag
      </main>
